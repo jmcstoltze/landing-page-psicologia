@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atención Psicológica</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- Preconexión para fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts: Montserrat y Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-brain me-2"></i>Psicología Clínica
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-4">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#nosotros">Acerca De</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#documentos">Documentos</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#enlaces">Enlaces</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header con imagen de fondo -->
+    <header class="header-bg">
+        <div class="header-content">
+            <h1>Mg. Claudio Perry Rosas</h1>
+            <p>Psicólogo Adultos - Individual & Parejas</p>
+        </div>
+    </header>
+
+    <!-- Sección de Cards -->
+    <section id="servicios" class="cards-section">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card w-100">
+                        <div class="card-body text-center p-4">
+                            <div class="card-icon">
+                                <i class="fas fa-couch"></i>
+                            </div>
+                            <h3 class="card-title">Orientación Clínica Psicoanalítica</h3>
+                            <!--<p class="card-text">Enfoque profundo para comprender y trabajar con los procesos inconscientes que influyen en tu vida.</p>-->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card w-100">
+                        <div class="card-body text-center p-4">
+                            <div class="card-icon">
+                                <i class="fas fa-heartbeat"></i>
+                            </div>
+                            <h3 class="card-title">Especialización en Trauma Complejo & Sufrimiento Contemporáneo</h3>
+                            <!--<p class="card-text">Abordaje especializado para superar experiencias traumáticas y el malestar emocional actual.</p>-->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card w-100">
+                        <div class="card-body text-center p-4">
+                            <div class="card-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h3 class="card-title">Formación Clínica Nacional e Internacional</h3>
+                            <!--<p class="card-text">Rigurosa preparación académica con los más altos estándares profesionales.</p>-->
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card service-card w-100">
+                        <div class="card-body text-center p-4">
+                            <div class="card-icon">
+                                <i class="fas fa-laptop-medical"></i>
+                            </div>
+                            <h3 class="card-title">Atención Presencial & Online</h3>
+                            <!--<p class="card-text">Terapia disponible en consultorio físico o mediante plataformas virtuales para tu comodidad.</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Acerca De -->
+    <section id="nosotros" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Columna Foto (centrada) -->
+                <div class="col-lg-6 mb-5 mb-lg-0 d-flex flex-column align-items-center">
+                    <div class="profile-card animate-from-left text-center">
+                        <div class="profile-img-container mb-4">
+                            <img src="img/Profile-Photo.jpg" alt="Mg. Claudio Perry" class="img-fluid shadow" style="max-width: 320px; max-height: 320px; width: auto; height: auto; border-radius: 2%;">
+                        </div>
+                        <div>
+                            <h2 class="mb-3">Mg. Claudio Perry Rosas</h2>
+                            <p class="lead text-muted">Psicólogo Clínico - Especialista en Trauma</p>
+                            <a href="#contacto" class="btn btn-secondary-custom mt-2 px-4 py-2">
+                                <i class="fas fa-envelope me-2"></i> Contacto
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <!-- Columna Video (centrada) -->
+                <div class="col-lg-6 d-flex flex-column align-items-center">
+                    <div class="video-card animate-from-right text-center">
+                        <div class="video-wrapper mb-4 rounded shadow overflow-hidden" style="max-width: 500px; border: 3px solid var(--color-secundario);">                            
+                            <video controls style="width: 60%;" poster="img/video-image.jpeg">
+                                <source src="assets/media/video-claudio-perry.mp4" type="video/mp4">
+                                Tu navegador no soporta el elemento video.
+                            </video>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Documentos -->
+    <section id="documentos" class="documents-section py-5 bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="section-title mb-4">Publicaciones Académicas</h2>
+                </div>
+            </div>
+        
+            <div class="row g-4 justify-content-center">
+                <!-- Documento 1 -->
+                <div class="col-md-6 col-lg-5">
+                    
+                    <!--
+                    <div class="document-card p-4 h-100 bg-white rounded shadow-sm">
+                        <div class="document-icon mb-4 text-center" style="color: var(--color-primario);">
+                            <i class="fas fa-file-pdf fa-3x"></i>
+                        </div>
+                        <h3 class="document-title mb-3">LA RELACIÓN ENTRE TRAUMA Y CUERPO EN EL PARADIGMA DE LO LÍMITE</h3>
+                        <p class="document-subtitle mb-3 text-muted">Aportes teóricos y éticos del psicoanalista André Green</p>
+                        <p class="document-meta mb-4"><i class="fas fa-user-graduate me-2"></i></i>Tesis para optar al grado de Magíster en Psicología, Mención Teoría y Clínica Psicoanalítica</p>
+                        <a href="assets/docs/Tesis-Claudio-Perry.pdf" class="btn btn-document w-100 py-2" download>
+                            <i class="fas fa-download me-2"></i>Descargar
+                        </a>
+                    </div> -->
+
+                    <div class="document-card p-4 h-100 bg-white rounded shadow-sm">
+                        <div class="document-content"> <!-- Contenedor nuevo -->
+                            <div class="document-icon mb-4 text-center" style="color: var(--color-primario);">
+                                <i class="fas fa-file-pdf fa-3x"></i>
+                            </div>
+                        <h3 class="document-title mb-3">LA RELACIÓN ENTRE TRAUMA Y CUERPO EN EL PARADIGMA DE LO LÍMITE</h3>
+                        <p class="document-subtitle mb-3 text-muted">Aportes teóricos y éticos del psicoanalista André Green</p>
+                        <p class="document-meta mb-4"><i class="fas fa-graduation-cap me-2"></i>Tesis para optar al grado de Magíster en Psicología, Mención Teoría y Clínica Psicoanalítica</p>
+                    </div>
+                    <a href="assets/docs/Tesis-Claudio-Perry.pdf" class="btn btn-document py-2">
+                        <i class="fas fa-download me-2"></i>Descargar
+                    </a>
+                </div>
+
+                </div>
+            
+                <!-- Documento 2 -->
+                <div class="col-md-6 col-lg-5">
+                    <!--
+                    <div class="document-card p-4 h-100 bg-white rounded shadow-sm">                
+                        <div class="document-icon mb-4 text-center" style="color: var(--color-primario);">
+                            <i class="fas fa-file-pdf fa-3x"></i>
+                        </div>
+                        <h3 class="document-title mb-3">PRESENTACIÓN DE CASO CLÍNICO</h3>
+                        <p class="document-subtitle mb-3 text-muted">"Ser" un padre...</p>
+                        <p class="document-meta mb-4"><i class="fas fa-user-graduate me-2"></i>Monografía para optar al grado de Postítulo en Psicología, Mención Clínica Psicoanalítica de Adultos</p>
+                        <a href="assets/docs/MONOGRAFIA-POSTITULO-CLAUDIO-PERRY.pdf" class="btn btn-document w-100 py-2" download>
+                            <i class="fas fa-download me-2"></i>Descargar
+                        </a>
+                    </div> -->
+
+                    <div class="document-card p-4 h-100 bg-white rounded shadow-sm">
+                        <div class="document-content"> <!-- Contenedor nuevo -->
+                            <div class="document-icon mb-4 text-center" style="color: var(--color-primario);">
+                                <i class="fas fa-file-pdf fa-3x"></i>
+                            </div>
+                        <h3 class="document-title mb-3">PRESENTACIÓN DE CASO CLÍNICO</h3>
+                        <p class="document-subtitle mb-3 text-muted">"Ser" un padre...</p>
+                        <p class="document-meta mb-4"><i class="fas fa-graduation-cap me-2"></i>Monografía para optar al grado de Postítulo en Psicología, Mención Clínica Psicoanalítica de Adultos</p>
+                    </div>
+                    <a href="assets/docs/MONOGRAFIA-POSTITULO-CLAUDIO-PERRY.pdf" class="btn btn-document py-2">
+                        <i class="fas fa-download me-2"></i>Descargar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Enlaces -->
+    <section id="enlaces" class="links-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="section-title mb-4">Artículos y Contenido</h2>                    
+                </div>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <!-- Enlace 1 -->
+                <div class="col-md-6 col-lg-5">
+                    <a href="https://lazosynexos.cl/historia-y-temporalidad-sintomatologia-y-su-sentido-en-el-contexto-de-pandemia/" class="link-card animate-from-left w-100" target="_blank" rel="noopener">
+                        <div class="link-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Historia y Temporalidad</h3>
+                            <p>Sintomatología y su sentido en el contexto de pandemia</p>
+                            <span class="link-domain">lazosynexos.cl</span>
+                        </div>
+                        <i class="fas fa-external-link-alt link-arrow"></i>
+                    </a>
+                </div>
+
+                <!-- Enlace 2 -->
+                <div class="col-md-6 col-lg-5">
+                    <a href="https://lazosynexos.cl/los-alcances-del-duelo-en-la-psicoterapia/" class="link-card animate-from-right w-100" target="_blank" rel="noopener">
+                        <div class="link-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Los Alcances del Duelo</h3>
+                            <p>Análisis del duelo en el contexto psicoterapéutico</p>
+                            <span class="link-domain">lazosynexos.cl</span>
+                        </div>
+                        <i class="fas fa-external-link-alt link-arrow"></i>
+                    </a>
+                </div>
+
+                <!-- Enlace 3 -->
+                <div class="col-md-6 col-lg-5">
+                    <a href="https://www.instagram.com/reel/C0ujP8pRTJH/" class="link-card animate-from-left w-100" target="_blank" rel="noopener">
+                        <div class="link-icon instagram-bg">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Reflexiones</h3>
+                            <p>Crisis de pánico</p>
+                            <span class="link-domain">instagram.com</span>
+                        </div>
+                        <i class="fas fa-external-link-alt link-arrow"></i>
+                    </a>
+                </div>
+
+                <!-- Enlace 4 -->
+                <div class="col-md-6 col-lg-5">
+                    <a href="https://www.instagram.com/reel/CjIlo9HuyPk/?igsh=cXd3dW5vbnhhaHY%3D" class="link-card animate-from-right w-100" target="_blank" rel="noopener">
+                        <div class="link-icon instagram-bg">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="link-content">
+                            <h3>Lazos y nexos</h3>
+                            <p>Centro de psicoterapia</p>
+                            <span class="link-domain">instagram.com</span>
+                        </div>
+                        <i class="fas fa-external-link-alt link-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact-section py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="section-title mb-4 text-white">Contacto</h2>                    
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <div class="contact-card p-4 p-md-5 rounded text-center mx-auto" style="max-width: 500px;">
+                        <div class="contact-icon mb-4">
+                            <i class="fas fa-envelope-open-text fa-3x" style="color: var(--color-texto);"></i>
+                        </div>
+                    
+                        <div class="contact-items">
+                            <!-- Teléfono -->
+                            <div class="contact-item mb-4">
+                                <a href="tel:+56971390615" class="text-white text-decoration-none d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-phone-alt me-3" style="color: var(--color-texto);"></i>
+                                    <span class="h4 mb-0">+56 9 7139 0615</span>
+                                </a>
+                            </div>
+                        
+                            <!-- Email -->
+                            <div class="contact-item mb-4">
+                                <a href="mailto:perrycg@gmail.com" class="text-white text-decoration-none d-flex align-items-center justify-content-center">
+                                    <i class="fas fa-envelope me-3" style="color: var(--color-texto);"></i>
+                                    <span class="h4 mb-0">perrycg@gmail.com</span>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-3 bg-black text-center">
+        <div class="container">
+            <p class="mb-0 text-white-50 small">
+                &copy; <span id="current-year">2025</span> | Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+
+    <!-- Script JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
